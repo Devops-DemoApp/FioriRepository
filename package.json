@@ -14,14 +14,14 @@
     "lint": "eslint **/*.js -c config.eslintrc -f checkstyle"
   },
   "dependencies":{
-    "karma": "*",
-    "karma-cli": "*",
-    "phantomjs": "*",
-    "karma-jasmine": "*",
-    "karma-phantomjs-launcher": "*",
-    "karma-junit-reporter":"*",
-    "karma-chrome-launcher":"*",
-    "eslint":"*"
+    "karma": "4.4.1",
+    "karma-cli": "2.0.0",
+    "phantomjs": "2.1.1",
+    "karma-jasmine": "3.1.1",
+    "karma-phantomjs-launcher": "1.0.4",
+    "karma-junit-reporter":"2.0.1",
+    "karma-chrome-launcher":"3.1.0",
+    "eslint":"v6.8.0"
   },
   "ui5": {
     "dependencies": [
