@@ -7,7 +7,7 @@ module.exports = function(config) {
 			require("karma-coverage"),
 			require("karma-chrome-launcher"),
 			require("karma-ie-launcher"),
-			require("karma-qunit")
+			require("karma-junit-reporter")
 		],
 
 		customLaunchers: {
