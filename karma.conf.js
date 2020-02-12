@@ -26,7 +26,13 @@ module.exports = function(config) {
 			level: "error"
 		},
 
-		singleRun: true
+		reporters: ['dots', 'junit'],
+    		singleRun: true,
+    		junitReporter: {
+      		// will be resolved to basePath (in the same way as files/exclude patterns)
+      		outputDir: 'TEST_RESULTS',
+      		outputFile: 'test-results.xml'
+    		}
 
 	});
 };
