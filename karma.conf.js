@@ -4,7 +4,6 @@ module.exports = function(config) {
 	config.set({
 
 		plugins: [
-			require("../../"),
 			require("karma-coverage"),
 			require("karma-chrome-launcher"),
 			require("karma-ie-launcher"),
